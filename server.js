@@ -15,6 +15,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'))
 })
 
-app.listen(80, () => {
-  console.log('服务启动' + 80)
+app.listen(8081, () => {
+  console.log('服务启动' + 8081)
 })
