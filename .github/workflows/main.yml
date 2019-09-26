@@ -12,7 +12,3 @@ jobs:
       - name: Print a greeting
         run: |
           node server
-
-  my_test_job_2:
-    name: my test job 2
-    nodes: my_test_job
